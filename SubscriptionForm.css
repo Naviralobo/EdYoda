@@ -1,0 +1,150 @@
+.options, .options-disabled, .options-select{
+    height:65px;
+    width:100%;
+    border-radius:4px;
+    border:1px solid #BEBEBE;
+    background-color: #ffffff;
+    margin: 20px 0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto';
+font-weight: 600;
+font-size: 16px;
+color: #3C4852;
+position:relative;
+}
+.total{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+}
+.total-amt{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+font-size: 16px;
+}
+.monthly-amt{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+.per-month{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+}
+.subscrpition{
+    font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+color: #3C4852;
+}
+.subs-fee{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #3C4852;
+}
+.offer-limit{
+align-items: flex-start;
+padding: 12px 24px;
+background: linear-gradient(135deg, rgba(222, 67, 19, 0.2) 0%, rgba(222, 67, 19, 0.2) 0.75%, rgba(222, 67, 19, 0.2) 2.92%, rgba(222, 68, 20, 0.2) 6.37%, rgba(223, 69, 21, 0.2) 10.97%, rgba(223, 72, 22, 0.2) 16.59%, rgba(224, 75, 24, 0.2) 23.1%, rgba(225, 80, 27, 0.2) 30.37%, rgba(227, 86, 31, 0.2) 38.27%, rgba(229, 94, 36, 0.2) 46.66%, rgba(231, 104, 43, 0.2) 55.41%, rgba(235, 117, 51, 0.2) 64.39%, rgba(238, 132, 60, 0.2) 73.47%, rgba(243, 149, 71, 0.2) 82.52%, rgba(248, 169, 84, 0.2) 91.41%, rgba(254, 193, 99, 0.2) 100%);
+border:2px solid red;
+border-radius: 8px;
+}
+.limit-desc{
+    font-family: 'Roboto';
+font-weight: 600;
+font-size: 16px;
+color: #DE4313;
+}
+.limit-validity{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 14px;
+color: #DE4313;
+}
+.final-amt{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #3C4852;
+}
+.cancel{
+
+gap: 28px;
+background: #FFFFFF;
+border-radius: 8px;
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 16px;
+color: #F77171;
+border:2px solid #F77171;
+width:50%;
+padding: 16px 24px;
+}
+.proceed{
+    gap: 28px;
+    background: #47BA68;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;;
+    border:2px solid #47BA68;
+    width:50%;
+    padding: 16px 8px;
+    }
+    .expired{
+position: absolute;
+width: 121px;
+height: 16px;
+left: 32px;
+top: 0px;
+background: #F77171;
+border-radius: 0px 0px 4px 4px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 120%;
+color: #FFFFFF;
+padding:2px 10px;
+    }
+    .recommended{
+        position: absolute;
+        width: 121px;
+        height: 16px;
+        left: 32px;
+        top: 0px;
+        background:  #47BA68;
+        border-radius: 0px 0px 4px 4px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 120%;
+        color: #FFFFFF;
+        padding:2px 10px;
+            }
+    input[type="radio"]:disabled {
+             opacity:0.5
+              }
+              .options-disabled{
+                opacity:0.3 !important;
+                background: #E7E7E7;
+border: 2px solid #BEBEBE;
+              }
+              .options-select{
+
+background: #D7EDDD;
+border: 2px solid #47BA68;
+
+              }

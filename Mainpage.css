@@ -1,0 +1,44 @@
+.main-body{
+    background: url("../Assets/background.svg");
+    min-height: 90vh;
+}
+.body-main-content{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+color: #FFFFFF;
+}
+.amt-white{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+.strike{
+    text-decoration: line-through;
+text-decoration-color: #FF0000;
+}
+
+.amt-blue{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+   color: #0096FF;
+}
+.body-detail{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 32px;
+color:#FFFFFF;    
+}
+.highlight{
+    color: #0096FF;
+}
+.form-page{
+    background-color: #FFFFFF;
+    border-radius:8px;
+    padding: 32px 24px;
+}

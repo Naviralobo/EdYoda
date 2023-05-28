@@ -1,0 +1,19 @@
+.numbers{
+width: 38px;
+height: 38px;
+background: #0096FF;
+border-radius: 50%;
+color:#FFFFFF;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+}
+
+.payment-heading{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+color: #3C4852;
+}

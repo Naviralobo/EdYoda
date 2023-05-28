@@ -1,0 +1,35 @@
+.main-div{
+    height:72px;
+}
+
+.title{
+font-family: 'Raleway';
+font-weight: 900;
+font-size: 38px;
+letter-spacing: 0.03em;
+background: linear-gradient(90.72deg, #0096FF 42.18%, #0048FF 93.77%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.header-content{
+font-family: 'Raleway';
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+}
+
+.join-now-btn{
+padding: 10px 42px;
+background: linear-gradient(266.79deg, #0048FF 4.63%, #0096FF 100%);
+border-radius: 52px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+color: #FFFFFF;
+border:none;
+}
